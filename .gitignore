@@ -1,0 +1,32 @@
+# IDE files
+*.class
+.classpath
+.project
+.settings/*
+.externalToolBuilders/*
+target/*
+*.swp
+.idea
+*.iml
+
+# Package Files #
+*.war
+*.ear
+
+# Maven build files
+target
+*/target
+/bin
+*.orig
+
+
+#Environment Configurations
+.env
+
+# Node downloads
+node_modules/*
+
+
+# Personal notes
+*.personal
+
