@@ -12,8 +12,6 @@ MD5 Fingerprint=B8:C7:47:20:88:E8:BA:9D:C9:10:3E:E9:79:AC:20:BB
 SOMEUSER@SOMESERVER:~/testcerts$ openssl x509 -noout -fingerprint -sha1 -inform pem -in ./api.example.com.crt
 SHA1 Fingerprint=AA:5C:06:A5:F1:08:DA:B1:24:46:71:40:D1:60:0B:78:27:E1:FE:E4
 
-aa5c06a5f108dab124467140d1600b7827e1fee4
-
 SOMEUSER@SOMESERVER:~/testcerts$ openssl x509 -noout -fingerprint -sha256 -inform pem -in ./api.example.com.crt
 SHA256 Fingerprint=33:55:95:27:37:48:C0:43:47:64:38:5C:5A:9C:30:60:29:63:AF:7C:D8:C8:06:D6:87:2F:AF:44:E7:54:B1:6B
 
